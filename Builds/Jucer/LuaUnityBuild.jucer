@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="XfJUsu" name="LuaUnityBuild" projectType="library" version="1.0.0"
+              bundleIdentifier="com.oneguygroup.LuaUnityBuild" jucerVersion="3.0.0">
+  <MAINGROUP id="jamuhw" name="LuaUnityBuild">
+    <GROUP id="{06053CD8-B7A5-D116-F660-A3A5F98BB637}" name="Lua 5.1.5"/>
+    <GROUP id="{96E59607-0539-CDA6-E5BA-87B15D4BFE7E}" name="Lua 5.2.1"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_gui_audio" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <EXPORTFORMATS>
+    <VS2010 targetFolder="../VisualStudio2010" libraryType="1" juceFolder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="LuaUnityBuild"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="LuaUnityBuild"/>
+      </CONFIGURATIONS>
+    </VS2010>
+  </EXPORTFORMATS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

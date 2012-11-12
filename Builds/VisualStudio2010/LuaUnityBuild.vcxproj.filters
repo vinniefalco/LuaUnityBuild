@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LuaUnityBuild">
+      <UniqueIdentifier>{B5A5D4C5-3266-D4EB-40DD-35930E7B3DC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaUnityBuild\Lua 5.1.5">
+      <UniqueIdentifier>{3AF7703B-B1AD-AFA0-6495-BB2233AE9576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaUnityBuild\Lua 5.2.1">
+      <UniqueIdentifier>{D05B8567-0285-0EC3-6D59-C83B86298A23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Library Code">
+      <UniqueIdentifier>{8B4D1BAA-6DB4-CAEC-A0FA-271F354D5C61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup/>
+  <ItemGroup>
+    <ClInclude Include="..\Jucer\JuceLibraryCode\AppConfig.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Jucer\JuceLibraryCode\JuceHeader.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
