@@ -199,6 +199,12 @@
     <ClCompile Include="..\..\ExternalDependencies\Lua.5.2.1\src\lzio.c">
       <Filter>LuaUnityBuild\Lua 5.2.1</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\LuaUnityBuild\LuaUnityBuild_5.1.5.cpp">
+      <Filter>LuaUnityBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LuaUnityBuild\LuaUnityBuild_5.2.1.cpp">
+      <Filter>LuaUnityBuild</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\ExternalDependencies\Lua.5.1.5\src\lapi.h">
@@ -344,6 +350,9 @@
     </ClInclude>
     <ClInclude Include="..\..\ExternalDependencies\Lua.5.2.1\src\lzio.h">
       <Filter>LuaUnityBuild\Lua 5.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LuaUnityBuild\LuaUnityBuild.h">
+      <Filter>LuaUnityBuild</Filter>
     </ClInclude>
     <ClInclude Include="..\Jucer\JuceLibraryCode\AppConfig.h">
       <Filter>Juce Library Code</Filter>

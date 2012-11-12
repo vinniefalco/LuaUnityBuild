@@ -116,6 +116,11 @@
       <FILE id="jIu7ux" name="lzio.c" compile="0" resource="0" file="../../ExternalDependencies/Lua.5.2.1/src/lzio.c"/>
       <FILE id="IIHtpO" name="lzio.h" compile="0" resource="0" file="../../ExternalDependencies/Lua.5.2.1/src/lzio.h"/>
     </GROUP>
+    <FILE id="mKvH4z" name="LuaUnityBuild.h" compile="0" resource="0" file="../../Source/LuaUnityBuild/LuaUnityBuild.h"/>
+    <FILE id="WPC65u" name="LuaUnityBuild_5.1.5.cpp" compile="1" resource="0"
+          file="../../Source/LuaUnityBuild/LuaUnityBuild_5.1.5.cpp"/>
+    <FILE id="Y8hjYr" name="LuaUnityBuild_5.2.1.cpp" compile="1" resource="0"
+          file="../../Source/LuaUnityBuild/LuaUnityBuild_5.2.1.cpp"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_gui_audio" showAllCode="1" useLocalCopy="1"/>

@@ -309,6 +309,8 @@
     <ClCompile Include="..\..\ExternalDependencies\Lua.5.2.1\src\lzio.c">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\..\Source\LuaUnityBuild\LuaUnityBuild_5.1.5.cpp"/>
+    <ClCompile Include="..\..\Source\LuaUnityBuild\LuaUnityBuild_5.2.1.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\ExternalDependencies\Lua.5.1.5\src\lapi.h"/>
@@ -359,6 +361,7 @@
     <ClInclude Include="..\..\ExternalDependencies\Lua.5.2.1\src\lundump.h"/>
     <ClInclude Include="..\..\ExternalDependencies\Lua.5.2.1\src\lvm.h"/>
     <ClInclude Include="..\..\ExternalDependencies\Lua.5.2.1\src\lzio.h"/>
+    <ClInclude Include="..\..\Source\LuaUnityBuild\LuaUnityBuild.h"/>
     <ClInclude Include="..\Jucer\JuceLibraryCode\AppConfig.h"/>
     <ClInclude Include="..\Jucer\JuceLibraryCode\JuceHeader.h"/>
   </ItemGroup>
