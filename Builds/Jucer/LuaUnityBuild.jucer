@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="XfJUsu" name="LuaUnityBuild" projectType="library" version="1.0.0"
-              bundleIdentifier="com.oneguygroup.LuaUnityBuild" jucerVersion="3.0.0">
+              bundleIdentifier="com.vinniefalco.LuaUnityBuild" jucerVersion="3.0.0">
   <MAINGROUP id="jamuhw" name="LuaUnityBuild">
     <GROUP id="{06053CD8-B7A5-D116-F660-A3A5F98BB637}" name="Lua 5.1.5">
       <FILE id="MNJ7Dc" name="lapi.c" compile="0" resource="0" file="../../ExternalDependencies/Lua.5.1.5/src/lapi.c"/>
