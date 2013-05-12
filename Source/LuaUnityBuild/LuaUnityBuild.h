@@ -36,7 +36,7 @@
 // The value is the same as LUA_VERSION_NUM in lua.h
 
 #ifndef LUAUNITYBUILD_VERSION
-#define LUAUNITYBUILD_VERSION 502   // use 5.2.1
+#define LUAUNITYBUILD_VERSION 502   // use 5.2.2
 //#define LUAUNITYBUILD_VERSION 501   // use 5.1.5
 #endif
 
